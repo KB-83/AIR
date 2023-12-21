@@ -29,7 +29,7 @@ public class GamePanel extends MainGameFrame implements Runnable {
     int fbs=1000000000/60;
     PlayersKeyHandler keyH=new PlayersKeyHandler();
     Listener listener;
-    BufferedImage bgImage = ImageIO.read(new File("/Users/kajal/Documents/AP/AIR/pict.png"));
+    BufferedImage bgImage = ImageIO.read(new File("/Users/kajal/Documents/AP/homeWork/AIR/pict.png"));
     Thread threadGame;
     //time handling in seconds
     public int remainingTimeOfTheGame;
